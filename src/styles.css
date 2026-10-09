@@ -44,6 +44,8 @@
  --shadow-3: oklch(0 0 0 / .03); --shadow-4: oklch(0 0 0 / .04); --shadow-5: oklch(0 0 0 / .05); --shadow-6: oklch(0 0 0 / .06);
  --badge-shadow: oklch(0 0 0 / .16); --badge-border: oklch(.21 .034 264.665 / .12); --badge-text: oklch(.21 .034 264.665);
 }
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 @layer base { * { border-color: var(--border); letter-spacing: 0; } body { background:var(--background); color:var(--foreground); font-family:var(--font-sans); } }
 .heading-gradient { background-image:linear-gradient(to right,var(--violet-strong),var(--indigo),var(--sky)); }
 .section-rule { background-image:linear-gradient(to right,transparent,var(--input),transparent); }
