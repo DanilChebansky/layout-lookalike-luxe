@@ -1,14 +1,19 @@
-# Welcome to your Lovable project
+# Layout Lookalike Luxe
+
+https://84b462df.lork.dev/
+По этой ссылке находится Лендинг-портфолио. Необходимо сгенерировать ровно такое же лендинг-портфолио, не делая никаких изменений от себя
 
 This project was built with [Lovable](https://lovable.dev).
 
+**Live app**: https://layout-lookalike-luxe.lovable.app
+
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/759c9ffa-1701-4697-af67-ef38f947f9b6).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +25,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
